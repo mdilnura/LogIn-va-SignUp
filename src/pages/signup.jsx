@@ -58,7 +58,7 @@ export default function signup() {
   };
   return (
     <div className="flex h-screen">
-      <div className="hidden registration lg:flex grow h-full"></div>
+      <div className="hidden registration lg:flex h-full w-1/2"></div>
       <div className="registration lg:bg-none grow flex flex-col items-center justify-center">
         <form
           onSubmit={handleSubmit}
