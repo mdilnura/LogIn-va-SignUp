@@ -64,7 +64,7 @@ export default function signup() {
           onSubmit={handleSubmit}
           className="bg-white/60 w-full max-w-md rounded-md p-8 flex flex-col gap-4 items-center lg:shadow-lg"
         >
-          <h1 className="text-3xl font-semibold">Login</h1>
+          <h1 className="text-3xl font-semibold">Signup</h1>
           <FormInput
             label="DisplayName:"
             type="text"
